@@ -460,12 +460,16 @@
       # example: LDAP_EMAIL_FIELD=mail
       #export LDAP_EMAIL_FIELD=
       #
+      # LDAP_INITIALS_FIELD : which field contains the LDAP initials
+      # example: LDAP_INITIALS_FIELD=initials
+      #export LDAP_INITIALS_FIELD=
+      #
       # LDAP_SYNC_USER_DATA :
       # example :  export LDAP_SYNC_USER_DATA=true
       #export LDAP_SYNC_USER_DATA=false
       #
       # LDAP_SYNC_USER_DATA_FIELDMAP :
-      # example :  export LDAP_SYNC_USER_DATA_FIELDMAP={"cn":"name", "mail":"email"}
+      # example :  export LDAP_SYNC_USER_DATA_FIELDMAP={"cn":"name", "mail":"email", "initials":"initials"}
       #export LDAP_SYNC_USER_DATA_FIELDMAP=
       #
       # The default domain of the ldap it is used to create email if the field is not map correctly
