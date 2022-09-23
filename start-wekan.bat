@@ -407,9 +407,9 @@ REM # LDAP_EMAIL_FIELD : which field contains the LDAP e-mail address
 REM # example: LDAP_EMAIL_FIELD=mail
 REM SET LDAP_EMAIL_FIELD=
 
-REM # LDAP_EMAIL_FIELD : which field contains the LDAP initials
-REM # example: LDAP_EMAIL_FIELD=initials
-REM SET LDAP_EMAIL_FIELD=
+REM # LDAP_INITIALS_FIELD : which field contains the LDAP initials
+REM # example: LDAP_INITIALS_FIELD=initials
+REM SET LDAP_INITIALS_FIELD=
 
 REM # LDAP_SYNC_USER_DATA :
 REM # example : LDAP_SYNC_USER_DATA=true
