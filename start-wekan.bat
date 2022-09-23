@@ -407,12 +407,16 @@ REM # LDAP_EMAIL_FIELD : which field contains the LDAP e-mail address
 REM # example: LDAP_EMAIL_FIELD=mail
 REM SET LDAP_EMAIL_FIELD=
 
+REM # LDAP_EMAIL_FIELD : which field contains the LDAP initials
+REM # example: LDAP_EMAIL_FIELD=initials
+REM SET LDAP_EMAIL_FIELD=
+
 REM # LDAP_SYNC_USER_DATA :
 REM # example : LDAP_SYNC_USER_DATA=true
 REM SET LDAP_SYNC_USER_DATA=false
 
 REM # LDAP_SYNC_USER_DATA_FIELDMAP :
-REM # example : LDAP_SYNC_USER_DATA_FIELDMAP={"cn":"name", "mail":"email"}
+REM # example : LDAP_SYNC_USER_DATA_FIELDMAP={"cn":"name", "mail":"email", "initials":"initals"}
 REM SET LDAP_SYNC_USER_DATA_FIELDMAP=
 
 REM # The default domain of the ldap it is used to create email if the field is not map correctly
